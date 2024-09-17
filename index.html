@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Product Price And Ratings</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <h1>Product Price and Ratings</h1>
+    
+    <form id="productForm">
+      <input type="text" id="productName" placeholder="Product Name" required>
+      <input type="number" id="productPrice" placeholder="Price" min="0" required>
+      <input type="number" id="productRating" placeholder="Rating (0-5)" min="0" max="5" required>
+      <button type="submit">Add Product</button>
+    </form>
+
+    <div class="sort-buttons">
+      <button id="sortByPrice">Sort by Price</button>
+      <button id="sortByRating">Sort by Rating</button>
+    </div>
+
+    <div class="graph-container">
+      <div class="graph" id="priceGraph">
+        <h3>Price Graph</h3>
+        <div id="priceBars"></div>
+      </div>
+
+      <div class="graph" id="ratingGraph">
+        <h3>Rating Graph</h3>
+        <div id="ratingBars"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

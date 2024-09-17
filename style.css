@@ -1,0 +1,49 @@
+/* Basic styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input {
+    margin-right: 10px;
+  }
+  
+  .graph-container {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .graph {
+    width: 48%;
+  }
+  
+  .bar {
+    height: 20px;
+    margin-bottom: 5px;
+    background-color: steelblue;
+    text-align: right;
+    color: white;
+    padding-right: 5px;
+  }
+  
+  .bar-rating {
+    background-color: orange;
+  }
+  
+  .sort-buttons {
+    margin: 10px 0;
+  }
+  
+  .sort-buttons button {
+    margin-right: 10px;
+  }
+  
